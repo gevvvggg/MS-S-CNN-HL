@@ -24,8 +24,8 @@ These Matlab codes generate predictions for the Felvoland dataset and calculate 
 6. main_txt.m - This code generates a text file containing the predicted labels for each test sample.
 7. mape.m - This code calculates the Mean Absolute Percentage Error (MAPE) between the predicted labels and the true labels for each test sample.
 8. confusion2.m - This code generates a confusion matrix showing the number of times each predicted label was assigned to each true label for each test sample.
-The SUCON file contains both pre-training and training code.
 
+The SUCON file contains both pre-training and training code.
 The Fullgraphprediction.ipynb is used for graph prediction.
 The dataenhancement.py script is used for data augmentation.
 The losses.py script is used to define loss functions.
