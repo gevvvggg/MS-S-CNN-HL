@@ -26,10 +26,11 @@ These Matlab codes generate predictions for the Felvoland dataset and calculate 
 8. confusion2.m - This code generates a confusion matrix showing the number of times each predicted label was assigned to each true label for each test sample.
 
 The SUCON file contains both pre-training and training code.
-The Fullgraphprediction.ipynb is used for graph prediction.
-The dataenhancement.py script is used for data augmentation.
-The losses.py script is used to define loss functions.
-"main_supcon.py is used for pre-training in contrastive learning, while main_ce and main_linear.py are used for training and fine-tuning. 
-Util.py is used for some common utility functions and data processing methods. 
+
+1.The Fullgraphprediction.ipynb is used for graph prediction.
+2.The dataenhancement.py script is used for data augmentation.
+3.The losses.py script is used to define loss functions.
+4."main_supcon.py is used for pre-training in contrastive learning, while main_ce and main_linear.py are used for training and fine-tuning. 
+5.Util.py is used for some common utility functions and data processing methods. 
 Specifically, it may include data preprocessing functions such as data cleaning, normalization, standardization, file operation functions like reading, writing, saving files, random number generation functions like generating random numbers and shuffling data order, statistical analysis functions like calculating mean, variance, standard deviation, and other auxiliary functions like string processing and time date processing. 
 These functions are usually called by other Python scripts to implement data preprocessing, file reading and writing, random number generation, statistical analysis, and other functions in deep learning models."
